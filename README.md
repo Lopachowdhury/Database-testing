@@ -1,3 +1,4 @@
+
 # Database Testing with MySQL
 
 A brief description of what this project does and who it's for
@@ -7,6 +8,10 @@ A brief description of what this project does and who it's for
 1.Introduction 
 
 2.Prerequisites
+
+3.Table Structures
+
+4.SQL Query for Database Testing
 ## Introduction
 This document provides a comprehensive guide to testing a MySQL database using queries. Effective database testing ensures that data is accurately stored, retrieved, and maintained, supporting the overall integrity of the database.
 
@@ -24,26 +29,25 @@ This document provides a comprehensive guide to testing a MySQL database using q
 - Department: Stores department details.
 - Location: Provides location details.
 - Job: Contains job roles and related information.
-## Employee Table Structure
+### Employee Table Structure
 
 ![image](https://github.com/Lopachowdhury/Database-testing/assets/139904174/46a9f13b-beaf-44bf-aad6-bc98fcde6eb8)
 
-## EMP Table
+### EMP Table
 ![image](https://github.com/Lopachowdhury/Database-testing/assets/139904174/f261f9e7-17ca-4299-9a34-c2d4c7a2c5f3)
 
-## Salary Table Structure
+### Salary Table Structure
 ![image](https://github.com/Lopachowdhury/Database-testing/assets/139904174/7648f100-59d0-49d6-bbfc-5c9da033dfed)
-
-## Department Table Structure
+### Department Table Structure
 ![image](https://github.com/Lopachowdhury/Database-testing/assets/139904174/b045b2d6-f721-45d8-a021-80b4f1281375)
-## Location Table Structure
+### Location Table Structure
 ![image](https://github.com/Lopachowdhury/Database-testing/assets/139904174/ed6050a9-7b74-4ec5-ab3d-9a9f41b654eb)
-## Job Table Structure
+### Job Table Structure
 ![image](https://github.com/Lopachowdhury/Database-testing/assets/139904174/8075512c-4a8c-4d4f-a91e-9be2930596d1)
-## SQL Query Examples for Database Testing
+## SQL Query for Database Testing
 This document provides a series of SQL queries designed for testing various operations on a database containing employee and salary data. Each query is accompanied by an explanation of its purpose and its SQL syntax.
 
-## Contents
+### Contents
 1.Fetch Employees by Manager
 
 2.Fetch Distinct Projects
@@ -89,7 +93,7 @@ This document provides a series of SQL queries designed for testing various oper
 22.Display Second Highest Salary
 
 23.Display Nth Highest Salary
-## Query Details
+### Query Details
 1. Fetch Employees by Manager
 Query:
 Fetch the EmpID and Name of all employees working under a manager with ManagerId of 986.
